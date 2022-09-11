@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Bases</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div class="titulo">
+                <h1>ConvBase</h1>
+            </div>
+
+            <div class="navegacao">
+                <ul>
+                    <li>Instagram</li>
+                    <li>Github</li>
+                    <li>Linkedin</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <h1 class="titulo_calc">Conversor de Bases</h1>
+
+
+    <!-- CONTAINER GERAL DOS CARDS -->
+
+    <div class="container_geral">
+
+    <!-- PRIMEIRO CARD -->
+
+    <div class="container">
+        <h3>Decimal</h3>
+        <div class="container_placeholder">
+            <input class="estilo_placeholder" id="demo1" type="text" placeholder="Digite o valor em decimal">
+        </div>
+
+        <h3>converter para:</h3>
+
+        <div class="converter_container">
+            <div class="octal">
+                <b>Octal</b>
+                <br>
+                <div class="div_result" id="demo2"></div>
+            </div>
+
+            <br><br>
+
+            <div class="hexadecimal">
+                <b>Hexadecimal</b>
+                <br>
+                <div class="div_result" id="demo3"></div>
+            </div>
+
+            <br><br>
+
+            <div class="binario">
+                <b>Binário</b>
+                <br>
+                <div class="div_result" id="demo4"></div>
+            </div>
+        </div>
+
+        <div class="container_button">
+            <button class="btn_converter" onclick="converter()">Converter</button>
+        </div>
+    </div>
+
+    <!-- SEGUNDO CARD -->
+
+    <div class="container">
+        <h3>Octal</h3>
+        <div class="container_placeholder">
+            <input class="estilo_placeholder" id="demo5" type="text" placeholder="Digite o valor em decimal">
+        </div>
+
+        <h3>converter para:</h3>
+
+        <div class="converter_container">
+            <div class="octal">
+                <b>Decimal</b>
+                <br>
+                <div class="div_result" id="demo6"></div>
+            </div>
+
+            <br><br>
+
+            <div class="hexadecimal">
+                <b>Hexadecimal</b>
+                <br>
+                <div class="div_result" id="demo7"></div>
+            </div>
+
+            <br><br>
+
+            <div class="binario">
+                <b>Binário</b>
+                <br>
+                <div class="div_result" id="demo8"></div>
+            </div>
+        </div>
+
+        <div class="container_button">
+            <button class="btn_converter" onclick="converter2()">Converter</button>
+        </div>
+    </div>
+
+    <!-- TERCEIRO CARD -->
+
+
+    <div class="container">
+        <h3>Hexadecimal</h3>
+        <div class="container_placeholder">
+            <input class="estilo_placeholder" id="demo9" type="text" placeholder="Digite o valor em decimal">
+        </div>
+
+        <h3>converter para:</h3>
+
+        <div class="converter_container">
+            <div class="octal">
+                <b>Octal</b>
+                <br>
+                <div class="div_result" id="demo10"></div>
+            </div>
+
+            <br><br>
+
+            <div class="hexadecimal">
+                <b>Decimal</b>
+                <br>
+                <div class="div_result" id="demo11"></div>
+            </div>
+
+            <br><br>
+
+            <div class="binario">
+                <b>Binário</b>
+                <br>
+                <div class="div_result" id="demo12"></div>
+            </div>
+        </div>
+
+        <div class="container_button">
+            <button class="btn_converter" onclick="converter3()">Converter</button>
+        </div>
+    </div>
+
+    <!-- QUARTO CARD -->
+
+    <div class="container">
+        <h3>Binário</h3>
+        <div class="container_placeholder">
+            <input class="estilo_placeholder" id="demo13" type="text" placeholder="Digite o valor em decimal">
+        </div>
+
+        <h3>converter para:</h3>
+
+        <div class="converter_container">
+            <div class="octal">
+                <b>Octal</b>
+                <br>
+                <div class="div_result" id="demo14"></div>
+            </div>
+
+            <br><br>
+
+            <div class="hexadecimal">
+                <b>Hexadecimal</b>
+                <br>
+                <div class="div_result" id="demo15"></div>
+            </div>
+
+            <br><br>
+
+            <div class="binario">
+                <b>Decimal</b>
+                <br>
+                <div class="div_result" id="demo16"></div>
+            </div>
+        </div>
+
+        <div class="container_button">
+            <button class="btn_converter" onclick="converter4()">Converter</button>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
+<script src="script.js"></script>
